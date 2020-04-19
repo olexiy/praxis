@@ -4,34 +4,39 @@
     <title>My Praxis</title>
     <meta http-equiv="x-ua-compatible" content="ie=edge" />
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <!-- Bootstap CSS -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <!-- Google fonts Bitter and Rubik -->
     <link
       href="https://fonts.googleapis.com/css?family=Bitter|Rubik&display=swap"
       rel="stylesheet"
     />
+    <!-- Custom CSS -->
     <link href="/public/styles/main.css" rel="stylesheet" />
   </head>
   <body>
-    <!-- Image and text -->
-    <header>
-      <nav class="navbar sticky-top navbar-expand-lg navbar-custom">
+    <div class="container">
+      <!-- Navigation -->
+      <nav class="navbar navbar-expand-lg navbar-dark sticky-top">
         <a class="navbar-brand" href="/">
           <img
             src="/public/img/logo.png"
-            width="80
-            "
-            height="80"
+            width="180"
+            height="180"
             class="d-inline-block align-center"
-            alt="logo fuspflege"
+            alt="Medezinische Fußpflege Vladlena Medebach"
           />
-          My Fuspflege Page
         </a>
+
         <button
           class="navbar-toggler"
           type="button"
@@ -44,70 +49,74 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Leistungen</a>
+          <ul class="navbar-nav ml-auto float-right">
+            <li class="nav-item btn btn-outline-light mr-4" style="width: 150px;">
+              <a class="nav-link text-white" href="#">Leistungen</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Praxis</a>
+            <li class="nav-item btn btn-outline-light mr-4" style="width: 150px;">
+              <a class="nav-link  text-white" href="#">Praxis</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tipps</a>
+            <li class="nav-item btn btn-outline-light mr-4" style="width: 150px;">
+              <a class="nav-link  text-white" href="#">Tipps</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Kontact</a>
+            <li class="nav-item btn btn-outline-light mr-4" style="width: 150px;">
+              <a class="nav-link  text-white" href="#">Kontact</a>
             </li>
           </ul>
         </div>
       </nav>
-    </header>
-    <main role="main">
-      <div class="jumbotron jumbotron-fluid"  id="aboutMe">
-        <div class="container">
-          <h1 class="display-4">
-            Mit großer Freude möchte ich mich vorstellen.
-          </h1>
-          <img
+    
+        <div class="row">
+          <div class="col col-md-5 py-sm-3 align-items-center">
+            <img
             src="public/img/master.jpg"
             alt="vladlena photo"
-            width="400"
-            height="auto"
-            id="masterImg"
+            id=" Vladlena Medebach Foto"
+            class="img-fluid border rounded-left border-0"
           />
-          <p class="lead"></p>
-          <p>
-            Neben der Leidenschaft zur medizinischen Fußpflege liegt mir seit
-            Beginn meiner beruflichen Tätigkeit noch die persönliche
-            Verbundenheit mit meinen Patienten, Harmonie und freundliche Umgang
-            sehr am Herzen.
-          </p>
-          <p>
-            Ich wohne seit 12 Jahre in München, die Stadt erinnert mich sehr an
-            meiner Heimatstadt Kiew, so fühlte ich mich hier sofort wie zu
-            Hause. Neben einer Ausbildung als Altenpflegerin und langjähriger
-            Berufserfahrung habe ich mich zusätzlich in der medizinischen
-            Fußpflege und Kosmetik weitergebildet und bin seit zehn Jahren dann
-            ausschließend in der medizinischen Fußpflege tätig war.
-          </p>
-          <p>
-            Nun Im November 2019 habe ich erfolgreich meine Stadtexamen
-            bestanden und darf jetzt als Podologin die präventive,
-            therapeutische und rehabilitative Behandlung am gesunden, sowie von
-            Schädigungen bedrohten und bereits geschädigten Fuß durführen.
-          </p>
-          <p>
-            Ich werde jederzeit mit Rat und Tat für Sie da sein. Ich freue mich,
-            Sie persönlich kennenzulernen und Ihre Erwartungen sowohl in
-            Podologie wie auch in menschlicher Hinsicht zu erfüllen.
-          </p>
-          <p><strong>herzlichen Grüßen, Ihre Frau Vladlena Medebach</strong></p>
+          </div>
+          <div class="col-12 col-md-7 bg-custom p-5 d-flex align-items-center border border-dark border-lg rounded-right">
+            <div>
+              <section>
+                <h1 class="drop-shadow">Mit großer Freude möchte ich mich vorstellen.</h1>
+                <p>
+                  Neben der Leidenschaft zur medizinischen Fußpflege liegt mir seit
+                  Beginn meiner beruflichen Tätigkeit noch die persönliche
+                  Verbundenheit mit meinen Patienten, Harmonie und freundliche Umgang
+                  sehr am Herzen.
+                </p>
+                <p>
+                  Ich wohne seit 12 Jahre in München, die Stadt erinnert mich sehr an
+                  meiner Heimatstadt Kiew, so fühlte ich mich hier sofort wie zu
+                  Hause. Neben einer Ausbildung als Altenpflegerin und langjähriger
+                  Berufserfahrung habe ich mich zusätzlich in der medizinischen
+                  Fußpflege und Kosmetik weitergebildet und bin seit zehn Jahren dann
+                  ausschließend in der medizinischen Fußpflege tätig war.
+                </p>
+                <p>
+                  Nun Im November 2019 habe ich erfolgreich meine Stadtexamen
+                  bestanden und darf jetzt als Podologin die präventive,
+                  therapeutische und rehabilitative Behandlung am gesunden, sowie von
+                  Schädigungen bedrohten und bereits geschädigten Fuß durführen.
+                </p>
+                <p>
+                  Ich werde jederzeit mit Rat und Tat für Sie da sein. Ich freue mich,
+                  Sie persönlich kennenzulernen und Ihre Erwartungen sowohl in
+                  Podologie wie auch in menschlicher Hinsicht zu erfüllen.
+                </p>
+                <p>
+                  <strong>herzlichen Grüßen, Ihre Frau Vladlena Medebach</strong>
+                </p>
+              </section>
+            </div>
+          </div>
         </div>
-      </div>
-    </main>
-    <footer>
-      <hr />
-      Impressum
-    </footer>
+   
+        <hr />
+        <a href="#" class="text-white">Impressum</a>
+        <a href="#" class="text-white px-3">Datenschutz</a>
+    </div>
+    <!-- Bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
