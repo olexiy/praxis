@@ -19,6 +19,11 @@ h2{
     font-size: 1.5rem;
 }
 
+h3{
+    font-family: 'Bitter', Helvetica, sans-serif;
+    font-size: 1rem;
+}
+
 .drop-shadow{
     text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.153);
 }
@@ -36,7 +41,7 @@ h2{
     background-color: rgba(255, 255, 255, 0.287);
 }
 
-.card{
+.card, .list-group-item{
     background-color:rgba(255, 255, 255, 0.287); ;
 }
 
